@@ -15,7 +15,7 @@ const Home = async (page = 1) => {
             </article>
         `).join('')}        
         </div>
-           <div class="Pagination">
+           <div class="pagination">
             ${
                 info.prev
                 ? `<a href="#/page/${
